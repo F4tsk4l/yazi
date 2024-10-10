@@ -1,0 +1,2 @@
+# yazi
+yazi configs
