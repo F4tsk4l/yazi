@@ -1,12 +1,14 @@
-yazi-rs/plugins:hide-preview
-yazi-rs/plugins:max-preview
-dedukun/bookmarks
-Sonico98/exifaudio
-yazi-rs/plugins:full-border
-Ape/simple-status
-pirafrank/what-size
-dedukun/relative-motions
-Ape/mediainfo
-Tyarel8/video-ffmpeg
-yazi-rs/plugins:jump-to-char
-AnirudhG07/rich-preview
+plugins:
+	yazi-rs/plugins:hide-preview
+	yazi-rs/plugins:max-preview
+	dedukun/bookmarks
+	Sonico98/exifaudio
+	yazi-rs/plugins:full-border
+	Ape/simple-status
+	pirafrank/what-size
+	dedukun/relative-motions
+	Ape/mediainfo
+	Tyarel8/video-ffmpeg
+	yazi-rs/plugins:jump-to-char
+	AnirudhG07/rich-preview
+flavors:
