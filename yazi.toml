@@ -41,7 +41,7 @@ extract = [
 	#{ run = 'ya pub extract --list "$@"', desc = "Extract here", for = "unix" },
 ]
 play = [
-	{ run = 'umpv "$@"', orphan = true, for = "unix" },
+	{ run = '/home/g4m3r/.local/bin/umpv "$@"', orphan = true, for = "unix" },
 	##{ run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
 ]
 
