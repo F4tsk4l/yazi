@@ -37,3 +37,4 @@ require("full-border"):setup {
     type = ui.Border.ROUNDED,
 }
 --require("relative-motions"):setup({ show_numbers = "relative_absolute", show_motion = true })
+--require("eza-preview"):setup()

@@ -1,5 +1,5 @@
 [plugin]
-deps = [{ use = "yazi-rs/plugins:hide-preview", rev = "7afba3a" }, { use = "yazi-rs/plugins:max-preview", rev = "7afba3a" }, { use = "dedukun/bookmarks", rev = "20ece7e" }, { use = "Sonico98/exifaudio", rev = "d794614" }, { use = "yazi-rs/plugins:full-border", rev = "7afba3a" }, { use = "Ape/simple-status", rev = "709f653" }, { use = "pirafrank/what-size", rev = "f08f7f2" }, { use = "dedukun/relative-motions", rev = "df97039" }, { use = "Ape/mediainfo", rev = "c69314e" }, { use = "Tyarel8/video-ffmpeg", rev = "1250b85" }, { use = "yazi-rs/plugins:jump-to-char", rev = "7afba3a" }, { use = "AnirudhG07/rich-preview", rev = "8be4d27" }]
+deps = [{ use = "yazi-rs/plugins:hide-preview", rev = "7afba3a" }, { use = "yazi-rs/plugins:max-preview", rev = "7afba3a" }, { use = "dedukun/bookmarks", rev = "35da107" }, { use = "Sonico98/exifaudio", rev = "d794614" }, { use = "yazi-rs/plugins:full-border", rev = "7afba3a" }, { use = "Ape/simple-status", rev = "3ef1447" }, { use = "pirafrank/what-size", rev = "f08f7f2" }, { use = "dedukun/relative-motions", rev = "df97039" }, { use = "Ape/mediainfo", rev = "df17c4f" }, { use = "Tyarel8/video-ffmpeg", rev = "1250b85" }, { use = "yazi-rs/plugins:jump-to-char", rev = "7afba3a" }, { use = "AnirudhG07/rich-preview", rev = "8be4d27" }]
 
 [flavor]
 deps = []
