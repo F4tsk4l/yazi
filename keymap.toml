@@ -60,6 +60,10 @@ keymap = [
     { on = [ "C" ], run = "plugin ouch --args=zip",  desc = "Compress with ouch" },
     # jump-to-char
     { on = [ "F" ], run = "plugin jump-to-char",  desc = "jump to char" },
+    #Toggle View
+    { on = "<A-1>", run = "plugin toggle-view --args=parent", desc = "Toggle parent" },
+    { on = "<A-2>", run = "plugin toggle-view --args=current", desc = "Toggle current" },
+    { on = "<A-3>", run = "plugin toggle-view --args=preview", desc = "Toggle preview" },
 
 
 	# Navigation
