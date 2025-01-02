@@ -5,7 +5,7 @@
 [manager]
 
 keymap = [
-	{ on = "<Esc>", run = "escape",             desc = "Exit visual mode, clear selected, or cancel search" },
+	{ on = ["i", "i"], run = "escape",          desc = "Exit visual mode, clear selected, or cancel search" },
 	{ on = "<C-[>", run = "escape",             desc = "Exit visual mode, clear selected, or cancel search" },
 	{ on = "q",     run = "quit",               desc = "Exit the process" },
 	{ on = "Q",     run = "quit --no-cwd-file", desc = "Exit the process without writing cwd-file" },
