@@ -85,7 +85,7 @@ preloaders = [
 	{ mime = "image/{avif,hei?,jxl,svg+xml}", run = "magick" },
 	{ mime = "image/*", run = "allmytoes" },
 	# Video
-	{ mime = "video/*", run = "allmytoes" },
+	{ mime = "video/*", run = "video" },
 	# PDF
 	{ mime = "application/pdf", run = "pdf" },
 	# Font
@@ -103,9 +103,11 @@ previewers = [
     # Media
 	# Image
 	{ mime = "image/{avif,hei?,jxl,svg+xml}", run = "magick" },
+    #{ mime = "{image,audio,video}/*", run = "mediainfo"},
 	{ mime = "image/*", run = "allmytoes" },
 	# Video
-	{ mime = "video/*", run = "allmytoes" },
+	{ mime = "video/*", run = "video" },
+    #{ mime = "application/subrip", run = "mediainfo"},
     # Audio
     { mime = "audio/*",   run = "exifaudio"},
 	# PDF
@@ -132,9 +134,6 @@ previewers = [
     { name = "*.md", run = "rich-preview" }, # for markdown (.md) files
     { name = "*.ipynb", run = "rich-preview"}, # for jupyter notebooks (.ipynb)
     { name = "*.json", run = "rich-preview"}, # for json (.json) files
-#    { name = "*.lang_type", run = "rich-preview"} # for particular language files eg. .py, .go., .lua, etc.
-
-
 
 ]
 
