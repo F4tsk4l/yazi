@@ -1,5 +1,67 @@
-[plugin]
-deps = [{ use = "yazi-rs/plugins:hide-preview", rev = "600614a" }, { use = "yazi-rs/plugins:max-preview", rev = "600614a" }, { use = "dedukun/bookmarks", rev = "202e450" }, { use = "Sonico98/exifaudio", rev = "d794614" }, { use = "yazi-rs/plugins:full-border", rev = "600614a" }, { use = "Ape/simple-status", rev = "3ef1447" }, { use = "pirafrank/what-size", rev = "b23e3a4" }, { use = "dedukun/relative-motions", rev = "df97039" }, { use = "Ape/mediainfo", rev = "df17c4f" }, { use = "Tyarel8/video-ffmpeg", rev = "1250b85" }, { use = "yazi-rs/plugins:jump-to-char", rev = "600614a" }, { use = "AnirudhG07/rich-preview", rev = "8be4d27" }, { use = "dawsers/toggle-view", rev = "9ae57f9" }]
+[[plugin.deps]]
+use = "yazi-rs/plugins:hide-preview"
+rev = "8945e54"
+hash = "55904f17e1053cfb91dacd9015a99f9d"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:max-preview"
+rev = "8945e54"
+hash = "15b2ff7f6563c14d5b2e93b3e9da35de"
+
+[[plugin.deps]]
+use = "dedukun/bookmarks"
+rev = "202e450"
+hash = "9e2f6f7381542d3adb3080b394b431b4"
+
+[[plugin.deps]]
+use = "Sonico98/exifaudio"
+rev = "d794614"
+hash = "a8e15d3c21c02a5af41d46ed04778a02"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "8945e54"
+hash = "ae9e1d0c6bfd68cdebc98cc684c22b45"
+
+[[plugin.deps]]
+use = "Ape/simple-status"
+rev = "d0da104"
+hash = "68603fdd1dcaf415227e2c77a9317947"
+
+[[plugin.deps]]
+use = "pirafrank/what-size"
+rev = "b23e3a4"
+hash = "98e5f5af3efd3ba8bc2db0720187cc83"
+
+[[plugin.deps]]
+use = "dedukun/relative-motions"
+rev = "0d9c8cf"
+hash = "561ad872c77b95360c2657c5e8d395ed"
+
+[[plugin.deps]]
+use = "Ape/mediainfo"
+rev = "df17c4f"
+hash = "74c2b0063f30c6b4e4ede533f9ca03f2"
+
+[[plugin.deps]]
+use = "Tyarel8/video-ffmpeg"
+rev = "1250b85"
+hash = "54a2158dde0bf6ecb377bd71c9cdcdf9"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:jump-to-char"
+rev = "8945e54"
+hash = "af11685de39c366ec1137fcbccacdbff"
+
+[[plugin.deps]]
+use = "AnirudhG07/rich-preview"
+rev = "2559e5f"
+hash = "c9a3d0731e7d7340e2c6d6126b1f3aa3"
+
+[[plugin.deps]]
+use = "dawsers/toggle-view"
+rev = "9ae57f9"
+hash = "9d291f6cecb1f1f5542fc18177d5c107"
 
 [flavor]
 deps = []
