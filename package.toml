@@ -9,11 +9,6 @@ rev = "beb586a"
 hash = "15b2ff7f6563c14d5b2e93b3e9da35de"
 
 [[plugin.deps]]
-use = "dedukun/bookmarks"
-rev = "202e450"
-hash = "9e2f6f7381542d3adb3080b394b431b4"
-
-[[plugin.deps]]
 use = "Sonico98/exifaudio"
 rev = "d794614"
 hash = "a8e15d3c21c02a5af41d46ed04778a02"
@@ -62,6 +57,11 @@ hash = "c9a3d0731e7d7340e2c6d6126b1f3aa3"
 use = "dawsers/toggle-view"
 rev = "9ae57f9"
 hash = "9d291f6cecb1f1f5542fc18177d5c107"
+
+[[plugin.deps]]
+use = "dedukun/bookmarks"
+rev = "202e450"
+hash = "9e2f6f7381542d3adb3080b394b431b4"
 
 [flavor]
 deps = []
