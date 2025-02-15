@@ -43,27 +43,27 @@ keymap = [
     {on =  ["b","d"], run = "plugin bookmarks delete", desc = "Delete a bookmark"},
     {on =  ["b","D"], run = "plugin bookmarks delete_all", desc = "Delete all bookmark"},
     # Tabs Save and Restore
-    {on = [ "P", "s" ], run = "plugin projects --args=save", desc = "Save current project"},
-    {on = [ "P", "l" ], run = "plugin projects --args=load", desc = "Load project"},
-    {on = [ "P", "P" ], run = "plugin projects --args=load_last", desc = "Load last project"},
-    {on = [ "P", "d" ], run = "plugin projects --args=delete", desc = "Delete project"},
-    {on = [ "P", "D" ], run = "plugin projects --args=delete_all", desc = "Delete all projects"},
-    {on = [ "P", "m" ], run = "plugin projects --args='merge current'", desc = "Merge current tab to other projects"},
-    {on = [ "P", "M" ], run = "plugin projects --args='merge all'", desc = "Merge current project to other projects"},
-    {on = "q", run = "plugin projects --args=quit", desc = "Save last project and exit process"},
+    {on = [ "P", "s" ], run = "plugin projects save", desc = "Save current project"},
+    {on = [ "P", "l" ], run = "plugin projects load", desc = "Load project"},
+    {on = [ "P", "P" ], run = "plugin projects load_last", desc = "Load last project"},
+    {on = [ "P", "d" ], run = "plugin projects delete", desc = "Delete project"},
+    {on = [ "P", "D" ], run = "plugin projects delete_all", desc = "Delete all projects"},
+    {on = [ "P", "m" ], run = "plugin projects 'merge current'", desc = "Merge current tab to other projects"},
+    {on = [ "P", "M" ], run = "plugin projects 'merge all'", desc = "Merge current project to other projects"},
+    {on = "q", run = "plugin projects quit", desc = "Save last project and exit process"},
     # What size
     { on   = [ ".", "s" ], run  = "plugin what-size", desc = "Calc size of selection or cwd" },
-    { on   = [ ".", "S" ], run  = "plugin what-size --args='--clipboard'", desc = "Calc size of selection or cwd" },
+    { on   = [ ".", "S" ], run  = "plugin what-size '--clipboard'", desc = "Calc size of selection or cwd" },
     # Eza
     { on = [ "E" ], run = "plugin eza-preview",  desc = "Toggle tree/list dir preview" },
     # Ouch archive preview
-    { on = [ "C" ], run = "plugin ouch --args=zip",  desc = "Compress with ouch" },
+    { on = [ "C" ], run = "plugin ouch zip",  desc = "Compress with ouch" },
     # jump-to-char
     { on = [ "F" ], run = "plugin jump-to-char",  desc = "jump to char" },
     #Toggle View
-    { on = "<A-1>", run = "plugin toggle-view --args=parent", desc = "Toggle parent" },
-    { on = "<A-2>", run = "plugin toggle-view --args=current", desc = "Toggle current" },
-    { on = "<A-3>", run = "plugin toggle-view --args=preview", desc = "Toggle preview" },
+    { on = "<A-1>", run = "plugin toggle-view parent", desc = "Toggle parent" },
+    { on = "<A-2>", run = "plugin toggle-view current", desc = "Toggle current" },
+    { on = "<A-3>", run = "plugin toggle-view preview", desc = "Toggle preview" },
 
 
 	# Navigation
