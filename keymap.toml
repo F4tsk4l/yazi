@@ -32,38 +32,56 @@ keymap = [
 	{ on = [ "g", "g" ], run = "arrow top", desc = "Move cursor to the top" },
 	{ on = "G",          run = "arrow bot",  desc = "Move cursor to the bottom" },
 
-    # PLUGINS 
+    # plugins 
     #--------------------------------------------
-    # Previews
-    {on = "T", run = "plugin  hide-preview", desc = "Hide or show preview"},
-    {on = "M", run = "plugin  max-preview", desc = "Maximize or restore preview"},
-    # Bookmarks
-    {on =  "m", run = "plugin bookmarks save", desc = "Save current position as a bookmark"},
-    {on =  "'", run = "plugin bookmarks jump", desc = "Jump to a bookmark"},
-    {on =  ["b","d"], run = "plugin bookmarks delete", desc = "Delete a bookmark"},
-    {on =  ["b","D"], run = "plugin bookmarks delete_all", desc = "Delete all bookmark"},
-    # Tabs Save and Restore
-    {on = [ "P", "s" ], run = "plugin projects save", desc = "Save current project"},
-    {on = [ "P", "l" ], run = "plugin projects load", desc = "Load project"},
-    {on = [ "P", "P" ], run = "plugin projects load_last", desc = "Load last project"},
-    {on = [ "P", "d" ], run = "plugin projects delete", desc = "Delete project"},
-    {on = [ "P", "D" ], run = "plugin projects delete_all", desc = "Delete all projects"},
-    {on = [ "P", "m" ], run = "plugin projects 'merge current'", desc = "Merge current tab to other projects"},
-    {on = [ "P", "M" ], run = "plugin projects 'merge all'", desc = "Merge current project to other projects"},
-    {on = "q", run = "plugin projects quit", desc = "Save last project and exit process"},
-    # What size
-    { on   = [ ".", "s" ], run  = "plugin what-size", desc = "Calc size of selection or cwd" },
-    { on   = [ ".", "S" ], run  = "plugin what-size '--clipboard'", desc = "Calc size of selection or cwd" },
-    # Eza
-    { on = [ "E" ], run = "plugin eza-preview",  desc = "Toggle tree/list dir preview" },
-    # Ouch archive preview
-    { on = [ "C" ], run = "plugin ouch zip",  desc = "Compress with ouch" },
+    # previews
+    { on = "T", run  = "plugin toggle-pane min-preview", desc = "Show or hide the preview pane"},
+    { on = "M", run  = "plugin toggle-pane max-preview", desc = "Maximize or restore the preview pane"},
+    #{on = "t", run = "plugin  hide-preview", desc = "hide or show preview"},
+    #{on = "m", run = "plugin  max-preview", desc = "maximize or restore preview"},
+    # bookmarks
+    {on =  "m", run = "plugin bookmarks save", desc = "save current position as a bookmark"},
+    {on =  "'", run = "plugin bookmarks jump", desc = "jump to a bookmark"},
+    {on =  ["b","d"], run = "plugin bookmarks delete", desc = "delete a bookmark"},
+    {on =  ["b","d"], run = "plugin bookmarks delete_all", desc = "delete all bookmark"},
+    # tabs save and restore
+    {on = [ "p", "s" ], run = "plugin projects save", desc = "save current project"},
+    {on = [ "p", "l" ], run = "plugin projects load", desc = "load project"},
+    {on = [ "p", "p" ], run = "plugin projects load_last", desc = "load last project"},
+    {on = [ "p", "d" ], run = "plugin projects delete", desc = "delete project"},
+    {on = [ "p", "d" ], run = "plugin projects delete_all", desc = "delete all projects"},
+    {on = [ "p", "m" ], run = "plugin projects 'merge current'", desc = "merge current tab to other projects"},
+    {on = [ "p", "m" ], run = "plugin projects 'merge all'", desc = "merge current project to other projects"},
+    {on = "q", run = "plugin projects quit", desc = "save last project and exit process"},
+    # what size
+    { on   = [ ".", "s" ], run  = "plugin what-size", desc = "calc size of selection or cwd" },
+    { on   = [ ".", "s" ], run  = "plugin what-size '--clipboard'", desc = "calc size of selection or cwd" },
+    # eza
+    { on = [ "e" ], run = "plugin eza-preview",  desc = "toggle tree/list dir preview" },
+    # ouch archive preview
+    #{ on = [ "c" ], run = "plugin ouch zip",  desc = "compress with ouch" },
     # jump-to-char
-    { on = [ "F" ], run = "plugin jump-to-char",  desc = "jump to char" },
-    #Toggle View
-    { on = "<A-1>", run = "plugin toggle-view parent", desc = "Toggle parent" },
-    { on = "<A-2>", run = "plugin toggle-view current", desc = "Toggle current" },
-    { on = "<A-3>", run = "plugin toggle-view preview", desc = "Toggle preview" },
+    { on = [ "f" ], run = "plugin jump-to-char",  desc = "jump to char" },
+    #toggle view
+    # previews
+    { on = "<A-1>", run  = "plugin toggle-pane max-parent", desc = "Maximize or restore the parent pane"},
+    { on = "<A-2>", run  = "plugin toggle-pane max-current", desc = "Maximize or restore the current pane"},
+    { on = "<A-3>", run  = "plugin toggle-pane max-preview", desc = "Maximize or restore the preview pane"},
+#    { on = "<A-1>", run = "plugin toggle-view parent", desc = "toggle parent" },
+#    { on = "<A-2>", run = "plugin toggle-view current", desc = "toggle current" },
+#    { on = "<A-3>", run = "plugin toggle-view preview", desc = "toggle preview" },
+#    { on = "<C-1>", run = "plugin toggle-view --args=parent", desc = "Toggle parent" },
+#    { on = "<C-2>", run = "plugin toggle-view --args=current", desc = "Toggle current" },
+#    { on = "<C-3>", run = "plugin toggle-view --args=preview", desc = "Toggle preview" },
+    #Sudo
+    {on = ["R", "P"], run = "plugin sudo -- paste --force", desc = "sudo paste"},
+    {on = ["R", "r"], run = "plugin sudo -- rename", desc = "sudo rename"},
+    {on = ["R", "p", "l"], run = "plugin sudo -- link", desc = "sudo link"},
+    {on = ["R", "p", "r"], run = "plugin sudo -- link --relative", desc = "sudo link relative path"},
+    {on = ["R", "p", "L"], run = "plugin sudo -- hardlink", desc = "sudo hardlink"},
+    {on = ["R", "a"], run = "plugin sudo -- create", desc = "sudo create"},
+    {on = ["R", "d"], run = "plugin sudo -- remove", desc = "sudo trash"},
+    {on = ["R", "D"], run = "plugin sudo -- remove --permanently", desc = "sudo delete"},
 
 
 	# Navigation
