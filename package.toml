@@ -1,22 +1,22 @@
 [[plugin.deps]]
 use = "dedukun/relative-motions"
-rev = "61ae795"
-hash = "65d576a76597aac2a428dc7ec0eda2ce"
+rev = "ce2e890"
+hash = "23915860e59348bf4166778bb0e606f7"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:jump-to-char"
-rev = "b12a9ab"
+rev = "864a021"
 hash = "a670c03eb3760812e044a24f94cedc55"
 
 [[plugin.deps]]
 use = "dedukun/bookmarks"
-rev = "95b2c58"
-hash = "17a094653b7d0db4ac68ed531d2e1412"
+rev = "a70648a"
+hash = "b836fb264381f35dec79930438a906d5"
 
 [[plugin.deps]]
 use = "AnirudhG07/rich-preview"
-rev = "2559e5f"
-hash = "c9a3d0731e7d7340e2c6d6126b1f3aa3"
+rev = "fdcf373"
+hash = "bd1737dd44b202f412122e6a3b378d4c"
 
 [[plugin.deps]]
 use = "Sonico98/exifaudio"
@@ -25,8 +25,8 @@ hash = "666ccba55119fba4c25b8ad354b2855c"
 
 [[plugin.deps]]
 use = "boydaihungst/mediainfo"
-rev = "436cb5f"
-hash = "144c0ac7a449fcab4e78e942eb41702c"
+rev = "9629b1e"
+hash = "5204b4e2bd238c40fa66cf0a0191f084"
 
 [[plugin.deps]]
 use = "MasouShizuka/projects"
@@ -40,12 +40,12 @@ hash = "6e789212eb41d937bab04877ca361099"
 
 [[plugin.deps]]
 use = "boydaihungst/restore"
-rev = "328dd88"
-hash = "ad406e4a5ada589211e6ffe8bad3c983"
+rev = "539aad5"
+hash = "fd162085ec09fef4b4060c92bba31994"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "b12a9ab"
+rev = "864a021"
 hash = "1f3dad061209081a6b04dd6ff2cb06c7"
 
 [[plugin.deps]]
@@ -65,8 +65,8 @@ hash = "a94dcbe9266512806c677138e8591ddb"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "b12a9ab"
-hash = "5c9dda1a587b8f5b6f63e3d5375bda88"
+rev = "864a021"
+hash = "f3853bbdd1da2fad09d059ab5464abfd"
 
 [flavor]
 deps = []

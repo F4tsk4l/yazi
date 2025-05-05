@@ -83,8 +83,8 @@ fetchers = [
 	{ id = "mime", run = "mime",  name = "*", if = "!mime", prio = "high" },
 ]
 preloaders = [
-	{ mime = "image/{avif,hei?,jxl,svg+xml}", run = "magick" },
-	{ mime = "image/*", run = "image" },
+  #{ mime = "image/{avif,hei?,jxl,svg+xml}", run = "allmytoes" },
+	{ mime = "image/*", run = "allmytoes" },
 	# Video
 	#{ mime = "video/*", run = "video" },
 	# PDF
@@ -103,9 +103,9 @@ previewers = [
 	{ mime = "application/{json,x-ndjson}", run = "json" },
     # Media
 	# Image
-	{ mime = "image/{avif,hei?,jxl,svg+xml}", run = "magick" },
+  #{ mime = "image/{avif,hei?,jxl,svg+xml}", run = "magick" },
 
-	{ mime = "image/*", run = "image" },
+	{ mime = "image/*", run = "allmytoes" },
 	# Video
 	#{ mime = "video/*", run = "video" },
     #{ mime = "application/subrip", run = "mediainfo"},
