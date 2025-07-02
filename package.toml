@@ -1,52 +1,52 @@
 [[plugin.deps]]
 use = "dedukun/relative-motions"
-rev = "ce2e890"
-hash = "23915860e59348bf4166778bb0e606f7"
+rev = "9d26460"
+hash = "6c0568cfa966a5d4ac496c926975a613"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:jump-to-char"
-rev = "864a021"
-hash = "a670c03eb3760812e044a24f94cedc55"
+rev = "2ad42fa"
+hash = "d2f04875bbd4ed3dd5696e8c4b094fde"
 
 [[plugin.deps]]
 use = "dedukun/bookmarks"
-rev = "a70648a"
-hash = "b836fb264381f35dec79930438a906d5"
+rev = "fbb7c00"
+hash = "1d231a808d3344546380df33daf43e91"
 
 [[plugin.deps]]
 use = "AnirudhG07/rich-preview"
-rev = "fdcf373"
-hash = "bd1737dd44b202f412122e6a3b378d4c"
+rev = "843c3fa"
+hash = "b4040931f0d2f9670ddb4923e55cd881"
 
 [[plugin.deps]]
 use = "Sonico98/exifaudio"
-rev = "7ff7141"
-hash = "666ccba55119fba4c25b8ad354b2855c"
+rev = "4506f9d"
+hash = "4761fffb60a12d37096c34a356380cdf"
 
 [[plugin.deps]]
 use = "boydaihungst/mediainfo"
-rev = "9629b1e"
-hash = "5204b4e2bd238c40fa66cf0a0191f084"
+rev = "b74b7b8"
+hash = "4b6ac1a6fd7ba02a945070ad39fc1999"
 
 [[plugin.deps]]
 use = "MasouShizuka/projects"
-rev = "4f11ecc"
-hash = "17fa17295d27864f62875f06a77f72e7"
+rev = "a5e33db"
+hash = "3de26efded35814ba3e55e28f1c389a4"
 
 [[plugin.deps]]
 use = "pirafrank/what-size"
-rev = "f1c6b69"
-hash = "6e789212eb41d937bab04877ca361099"
+rev = "d896656"
+hash = "62251f94eb67648d42cdfcfb8be0fad2"
 
 [[plugin.deps]]
 use = "boydaihungst/restore"
-rev = "539aad5"
-hash = "fd162085ec09fef4b4060c92bba31994"
+rev = "2c2802d"
+hash = "6513e9224b29ac1e2b3a7326ff648e81"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "864a021"
-hash = "1f3dad061209081a6b04dd6ff2cb06c7"
+rev = "2ad42fa"
+hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
 use = "Ape/simple-status"
@@ -55,8 +55,8 @@ hash = "68603fdd1dcaf415227e2c77a9317947"
 
 [[plugin.deps]]
 use = "sonico98/allmytoes"
-rev = "1e43bfd"
-hash = "8f9bfa292af429a27b81d424085ede67"
+rev = "dd7895d"
+hash = "c6983275665989e59e7fed04be2ac847"
 
 [[plugin.deps]]
 use = "TD-Sky/sudo"
@@ -65,8 +65,8 @@ hash = "a94dcbe9266512806c677138e8591ddb"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "864a021"
-hash = "f3853bbdd1da2fad09d059ab5464abfd"
+rev = "2ad42fa"
+hash = "d6f60c24d8c0cf57a855bf46115b2502"
 
 [flavor]
 deps = []
