@@ -5,7 +5,7 @@ hash = "6c0568cfa966a5d4ac496c926975a613"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:jump-to-char"
-rev = "2ad42fa"
+rev = "e5f00e2"
 hash = "d2f04875bbd4ed3dd5696e8c4b094fde"
 
 [[plugin.deps]]
@@ -45,7 +45,7 @@ hash = "6513e9224b29ac1e2b3a7326ff648e81"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "2ad42fa"
+rev = "e5f00e2"
 hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
@@ -65,7 +65,7 @@ hash = "a94dcbe9266512806c677138e8591ddb"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "2ad42fa"
+rev = "e5f00e2"
 hash = "d6f60c24d8c0cf57a855bf46115b2502"
 
 [flavor]
