@@ -85,8 +85,8 @@ fetchers = [
 preloaders = [
   #{ mime = "image/{avif,hei?,jxl,svg+xml}", run = "allmytoes" },
 	{ mime = "image/*", run = "allmytoes" },
-	# Video
-	#{ mime = "video/*", run = "video" },
+  #Video
+	{ mime = "video/*", run = "allmytoes" },
 	# PDF
 	{ mime = "application/pdf", run = "pdf" },
 	# Font
@@ -94,8 +94,8 @@ preloaders = [
 	{ mime = "application/vnd.ms-opentype", run = "font" },
 ]
 previewers = [
-    #{ name = "*/", run = "eza-preview" },
-	{ name = "*/", run = "folder", sync = true },
+  { name = "*/", run = "eza-preview" },
+  { name = "*/", run = "folder", sync = true },
 	# Code
 	{ mime = "text/*", run = "code" },
 	{ mime = "*/{xml,javascript,x-wine-extension-ini}", run = "code" },
@@ -107,8 +107,8 @@ previewers = [
 
 	{ mime = "image/*", run = "allmytoes" },
 	# Video
-	#{ mime = "video/*", run = "video" },
-    #{ mime = "application/subrip", run = "mediainfo"},
+	{ mime = "video/*", run = "allmytoes" },
+  { mime = "application/subrip", run = "mediainfo"},
   # Audio
   { mime = "audio/*",   run = "exifaudio"},
 	# PDF
