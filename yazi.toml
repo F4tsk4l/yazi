@@ -80,7 +80,9 @@ suppress_preload = false
 
 fetchers = [
 	# Mimetype
-	{ id = "mime", run = "mime",  name = "*", if = "!mime", prio = "high" },
+  { id = "mime", run = "mime",  name = "*", if = "!mime", prio = "high" },
+  { id = "simple-tag", name = "*", run = "simple-tag" },
+  { id = "simple-tag", name = "*/", run = "simple-tag" },
 ]
 preloaders = [
   #{ mime = "image/{avif,hei?,jxl,svg+xml}", run = "allmytoes" },
